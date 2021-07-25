@@ -15,6 +15,7 @@ no localStorage:
 2º Clicar no ícone do cart que fica no Header da página;
 
 3º Ao abrir a nova tela referente ao cart:
+
     3.1 -> Clicando em Keep Shopping, ele retornará a tela anterior, 
           possibilitando a troca do produto escolhido para um outro qualquer;
           
