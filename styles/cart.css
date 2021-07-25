@@ -1,0 +1,130 @@
+body{
+    background-color: rgba(0, 0, 0, 0.9);
+}
+
+.cart{
+    width: 50%;
+    height: 30vh;
+
+    margin: 5% auto;
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+    background-color: seagreen;
+    border-radius: 15px;
+}
+
+.cart h1{
+    text-align: center;
+    font-size: 2vw;
+    color: seashell;
+    border-bottom: 1px solid seashell;
+}
+
+.name, .price, .quantity{
+    width: 100%;
+    height: 10%;
+    display: flex;
+    justify-content: space-between;
+    color: seashell;
+}
+
+.buttons{
+    margin: 0 auto;
+}
+
+.btn-cart, .btn-form{
+    width: 160px;
+    height: 20px;
+
+    background-color: darkslateblue;
+    color: seashell;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+}
+
+.btn-cart:hover, .btn-form:hover{
+    cursor: pointer;
+    background-color: seashell;
+    color: darkslateblue;
+    font-weight: bold;
+}
+
+.btn-cart:active, .btn-form:active{
+    border: 2px solid darkslategray;
+}
+
+.client{
+    width: 50%;
+    height: 35vh;
+
+    margin: 5% auto;
+    padding: 5px;
+    display: none;
+    flex-direction: column;
+    justify-content: space-between;
+
+    background-color: seagreen;
+    border-radius: 15px;
+}
+
+.client h1{
+    text-align: center;
+    font-size: 2vw;
+    color: seashell;
+    border-bottom: 1px solid seashell;
+}
+
+.client h4{
+    font-size: 1vw;
+    text-align: center;
+    color: seashell;
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+
+.client .form{
+    margin-top: 15px;
+}
+
+
+.label{
+    width: 15%;
+    height: 5%;
+    margin-bottom: 25px;
+    font-size: 1.5vw;
+    font-weight: bold;
+    letter-spacing: 1px;
+    text-align: left;
+}
+
+.input{
+    width: 75%;
+    height: 50%;
+    align-items: center;
+    justify-content: center;
+    text-align: left;
+}
+
+.form-name, .form-email, .form-address{
+    width: 100%;
+    height: 25%;
+    display: flex;
+    color: seashell;
+}
+
+.btn-form{
+    width: 10vw;
+    height: 3vh;
+    font-size: 2vh;
+    text-indent: 1px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+}

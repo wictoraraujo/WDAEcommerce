@@ -1,0 +1,118 @@
+header{
+    width: 100%;
+    height: 8vh;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    background-color: rgba(20, 40, 120, 0.8);
+    color: seashell;
+}
+
+
+header .logo h1{
+    margin-left: 5vw;
+    font-size: 3vw;
+    font-family: 'Oswald', sans-serif;
+    color: seashell;
+    text-align: center;
+    text-shadow: 1px 1px 2px aqua;
+}
+
+header .logo h1:hover{
+    color: darkturquoise;
+    transition-delay: 180ms;
+}
+
+header .search{
+    width: 35vw;
+    height: 5vh;
+
+    margin-left: 2vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+header .search input{
+    width: 100%;
+    height: 90%;
+    
+    font-size: 1vw;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: left;
+    text-indent: 35px;
+    letter-spacing: 3px;
+    text-transform: capitalize;
+
+    background-color: seashell;
+    color: teal;
+    border: none;
+    border-radius: 2px 0 0 2px;
+}
+
+header .search input::placeholder{
+    text-transform: initial;
+    color: darkslategray;
+}
+
+header .search input:focus::-webkit-input-placeholder{
+    color: transparent;
+}
+
+header .search input:focus{
+    box-shadow: 0 0 0 0;
+    border: 0 none;
+    outline: 0;
+}
+
+header button{
+    width: 2vw;
+    min-width: 4vw;
+    height: 5vh;
+    background-color: teal;
+    border: none;
+    border-radius: 0 3px 3px 0;
+    outline: none;
+}
+
+header button:hover{
+    cursor: pointer;
+    transition-delay: 180ms;
+    background-color: darkturquoise;
+}
+
+header .login{
+    width: 8vw;
+    height: 5vh;
+    margin-left: 1vw;
+
+    display: none;
+    align-items: center;
+    justify-content: center;
+}
+
+header .login a{
+    font-size: 4vh;
+    color: seashell;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+
+header .login h3:hover{
+    color: darkturquoise;
+    transition-delay: 180ms;
+}
+
+header .cart{
+    display: flex;
+    align-items: center;
+}
+
+header .cart img{
+    width: 4vw;
+    padding-top: 4px;
+    padding-right: 3vw;
+    margin-right: 5vw;
+}

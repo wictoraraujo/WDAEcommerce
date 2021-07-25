@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <!-- Start Meta tags area -->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WDA E-Commerce</title>
+    <!-- End Meta tags area -->
+
+    <!-- Start Links area -->
+    <link rel="stylesheet" type="text/css" href="./styles/reset.css">
+    <link rel="stylesheet" type="text/css" href="./styles/header.css">
+    <link rel="stylesheet" type="text/css" href="./styles/main.css">
+    <link rel="stylesheet" type="text/css" href="./styles/footer.css">
+    <link rel="stylesheet" type="text/css" href="./styles/responsive.css">
+    <!-- End Links area -->
+</head>
+<body>
+    
+    <header>
+        <div class="logo">
+            <a href="index.html"><h1>Wda.com</h1></a> 
+         </div>
+         <div class="search">
+             <input type="text" placeholder="Search for your product here">
+             <button id="btn-search"><img src="./src/search_white.svg" alt="icon search"></button>
+         </div>
+         <div class="login">
+             <a href="index.html">Login</a>
+         </div>
+         <div class="cart">
+             <a href="/cart.html"><img src="./src/cart_white.svg" alt="icon cart white"></a>
+         </div>
+    </header>
+
+    <main>
+        <div class="product">
+            <div class="item" id="item1">
+                <div class="image">
+                    <a href=""><img src="./src/headphone_razer.png" alt="image product 1"></a>
+                </div>
+                <div class="description">
+                    <div class="name">
+                        <a href="" id="name1" class="name-item">Headset Razer Kraken</a>
+                    </div>
+                    <div class="price">
+                        <span id="price1" class="price-item">$ 105,00</span>
+                    </div>
+                </div>
+                <div class="add-item-cart">
+                    <button id="btn-item1" class="btn-item" onclick="sendValue1()">Add to cart</button>
+                </div>
+            </div>
+
+            <div class="item" id="item2">
+                <div class="image">
+                    <a href=""><img src="./src/mouse-razer.png" alt="image product 1"></a>
+                </div>
+                <div class="description">
+                    <div class="name">
+                        <span id="name2" class="name-item">Mouse Razer Storm</span>
+                    </div>
+                    <div class="price">
+                        <span id="price2" class="price-item">$ 45,00</span>
+                    </div>
+                </div>
+                <div class="add-item-cart">
+                    <button id="btn-item2" class="btn-item" onclick="sendValue2()">Add to cart</button>
+                </div>
+            </div>
+
+            <div class="item" id="item3">
+                <div class="image">
+                    <a href=""><img src="./src/teclado-razer.png" alt="image product 1"></a>
+                </div>
+                <div class="description">
+                    <div class="name">
+                        <span id="name3" class="name-item">Keyboard Razer Black</span>
+                    </div>
+                    <div class="price">
+                        <span id="price3" class="price-item">$ 60,00</span>
+                    </div>
+                </div>
+                <div class="add-item-cart">
+                    <button id="btn-item3" class="btn-item" onclick="sendValue3()">Add to cart</button>
+                </div>
+            </div>
+
+            <div class="item" id="item4">
+                <div class="image">
+                    <a href=""><img src="./src/headphone-hyperx.png" alt="image product 1"></a>
+                </div>
+                <div class="description">
+                    <div class="name">
+                        <span id="name4" class="name-item">Headset HyperX Cloud</span>
+                    </div>
+                    <div class="price">
+                        <span id="price4" class="price-item">$ 305,00</span>
+                    </div>
+                </div>
+                <div class="add-item-cart">
+                    <button id="btn-item4" class="btn-item" onclick="sendValue4()">Add to cart</button>
+                </div>
+            </div>
+
+            <div class="item" id="item5">
+                <div class="image">
+                    <a href=""><img src="./src/mouse-hyperx.png" alt="image product 1"></a>
+                </div>
+                <div class="description">
+                    <div class="name">
+                        <span id="name5" class="name-item">Mouse HyperX Pulsefire</span>
+                    </div>
+                    <div class="price">
+                        <span id="price5" class="price-item">$ 35,00</span>
+                    </div>
+                </div>
+                <div class="add-item-cart">
+                    <button id="btn-item5" class="btn-item" onclick="sendValue5()">Add to cart</button>
+                </div>
+            </div>
+
+            <div class="item" id="item6">
+                <div class="image">
+                    <a href=""><img src="./src/teclado-hyperx.png" alt="image product 1"></a>
+                </div>
+                <div class="description">
+                    <div class="name">
+                        <span id="name6" class="name-item">Keyboard HyperX Alloy</span>
+                    </div>
+                    <div class="price">
+                        <span id="price6" class="price-item">$ 52,00</span>
+                    </div>
+                </div>
+                <div class="add-item-cart">
+                    <button id="btn-item6" class="btn-item" onclick="sendValue6()">Add to cart</button>
+                </div>
+            </div>
+        </div>
+
+            
+    </main>
+    <footer>
+        <div class="copyright">
+            &copy; WDA E-Commerce Inc.
+            <h3>WDA E-commerce US Company Inc. | EIN 61.623.645/6666-67</h3>
+            <address>1600 Amphitheatre Pkwy, Mountain View, CA 94043, United States</address>
+        </div>
+    </footer>
+    <!-- Start Scripts area -->
+    <script src="./scripts/script.js"></script>
+    <!-- End Scripts area-->
+</body>
+</html>

@@ -1,0 +1,96 @@
+main{
+    width: 100%;
+    height: auto;
+    margin-top: 3vh;
+    margin-bottom: 1vh;
+
+    background-color: rgba(0, 0, 0, 0.2);
+    overflow-x: hidden;
+}
+
+main .product{
+    width: 100vw;
+    height: auto;
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+
+    background-color: seashell;
+}
+
+main .item{
+    width: 25vw;
+    height: 30vh;
+    margin-bottom: 8vh;
+
+    background-color: rgba(20, 40, 120, 0.8);
+    border: 1px solid lightgrey;
+}
+
+main .item .image{
+    width: 25vw;
+    height: 20vh;
+
+    display: flex;
+}
+
+.item .image a img{
+    width: 25vw;
+    height: 23vh;
+    background-color: white;
+}
+
+main .item .description{
+    width: 25vw;
+    height: 10vh;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-wrap: wrap;
+}
+
+.item .description .name{
+    width: 25vw;
+    height: 3vh;
+    padding-top: 1.6vh;
+}
+
+.item .description .name .name-item{
+    font-size: 2vw;
+    color: springgreen;
+    letter-spacing: 1px;
+}
+
+.item .description .price{
+    width: 25vw;
+    height: 2vh;
+    padding-top: 1.6vh;
+}
+
+.item .description .price .price-item{
+    font-size: 3vh;
+    color: seashell;
+}
+
+.item .add-item-cart button{
+    width: 25vw;
+    height: 4vh;
+
+    font-size: 3vh;
+    background-color: lightseagreen;
+    color: seashell;
+    border: 1px solid darkgrey;
+}
+
+.item .add-item-cart button:hover{
+    cursor: pointer;
+    
+    background-color: slategray;
+    color: springgreen;
+}
